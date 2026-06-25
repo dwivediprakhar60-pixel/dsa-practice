@@ -7,7 +7,7 @@ public class Calci{
         int num1 = input.nextInt();
         int num2 = input.nextInt();
         System.out.println("Enter the operator (+,-,*,/) : ");
-        char op = input.next().charAt(0);
+        char op = input.next().trim().charAt(0);
         double result = 0;
         if (op == '+')
         {
